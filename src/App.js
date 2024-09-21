@@ -9,7 +9,7 @@ function App() {
         <div style={{height:"100%"}} >
            <Router>
             <Routes>
-                <Route path='/' element={<Home />}/>
+                <Route path='/resturant' element={<Home />}/>
                 <Route path='/login' element={<Login />}/>
                 
             </Routes>
